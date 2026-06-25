@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 40px;
+}
+
+h1{
+    text-align: center;
+    color: #e90707;
+}
+
+fieldset{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #0004f1;
+    border-radius: 8px;
+    background-color: white;
+}
+
+legend{
+    font-size: 20px;
+    margin: 20px 30px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #ffffff;
+    border: 2px solid #5901be;
+    border-radius: 10px;
+    background-color: #b700ff9a;
+}
+
+
+
+table{
+    width: 100%;
+}
+
+td{
+    padding: 10px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="tel"]{
+    width: 180px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    width: 100px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    background-color: #007BFF;
+}
+
+input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+
+input[type="reset"]{
+    background-color: #dc3545;
+}
+
+input[type="reset"]:hover{
+    background-color: #b02a37;
+}
+
+/* Center the button table */
+table:last-of-type{
+    width: 220px;
+    margin: auto;
+}
