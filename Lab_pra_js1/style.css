@@ -1,0 +1,93 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Fieldset */
+fieldset{
+    width: 380px;
+    padding: 25px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Legend */
+legend{
+    font-size: 22px;
+    font-weight: bold;
+    color: #4CAF50;
+    padding: 0 10px;
+}
+
+/* Labels */
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* Input Focus */
+input:focus{
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76,175,80,0.5);
+}
+
+/* Submit Button */
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover{
+    background: #388E3C;
+}
+
+/* Error Messages */
+#usernameError,
+#passwordError{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Total Message */
+#total{
+    text-align: center;
+    margin-top: 15px;
+    color: blue;
+    font-weight: bold;
+}
