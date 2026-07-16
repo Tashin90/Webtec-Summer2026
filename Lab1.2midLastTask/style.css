@@ -1,0 +1,60 @@
+body{
+
+    background:#ffffff;
+
+    font-family:Arial;
+}
+
+.container{
+
+    width:700px;
+
+    margin:auto;
+
+    margin-top:30px;
+
+    background:#d9ecf8;
+
+    padding:20px;
+
+    border-radius:10px;
+}
+
+fieldset{
+
+    border:2px solid gray;
+}
+
+legend{
+
+    font-weight:bold;
+}
+
+label{
+
+    font-weight:bold;
+}
+
+span{
+
+    color:red;
+}
+
+input,select{
+
+    width:220px;
+
+    padding:5px;
+}
+
+button{
+
+    margin-top:15px;
+
+    padding:8px 25px;
+}
+
+p{
+
+    color:red;
+}

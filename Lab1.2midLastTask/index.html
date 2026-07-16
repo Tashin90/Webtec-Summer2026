@@ -1,0 +1,176 @@
+<html>
+<head>
+    <title>Student Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <fieldset>
+
+            <legend>Student Registration Form</legend>
+
+            <form onsubmit="return registration();">
+
+                <table>
+
+                    <tr>
+                        <td><b>First Name <span>*</span></b></td>
+
+                        <td>
+                            <input type="text" id="fname">
+                        </td>
+
+                        <td>
+                            <p id="fnameError"></p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td><b>Last Name <span>*</span></b></td>
+
+                        <td>
+                            <input type="text" id="lname">
+                        </td>
+
+                        <td>
+                            <p id="lnameError"></p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td><b>Student ID <span>*</span></b></td>
+
+                        <td>
+                            <input type="text" id="sid">
+                        </td>
+
+                        <td>
+                            <p id="idError"></p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td><b>Email <span>*</span></b></td>
+
+                        <td>
+                            <input type="text" id="email">
+                        </td>
+
+                        <td>
+                            <p id="emailError"></p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td><b>Credit Completed <span>*</span></b></td>
+
+                        <td>
+                            <input type="number" id="credit">
+                        </td>
+
+                        <td>
+                            <p id="creditError"></p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+
+                        <td><b>Department <span>*</span></b></td>
+
+                        <td>
+
+                            <select id="department">
+
+                                <option value="">Select</option>
+
+                                <option>CSE</option>
+
+                                <option>CS</option>
+
+                                <option>SE</option>
+
+                                <option>EEE</option>
+
+                                <option>BBA</option>
+
+                                <option>IP</option>
+
+                            </select>
+
+                        </td>
+
+                        <td>
+
+                            <p id="departmentError"></p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td colspan="3" align="center">
+
+                            <button>Submit</button>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+            </form>
+
+        </fieldset>
+
+    </div>
+
+    <br>
+
+    <div class="container">
+
+        <fieldset>
+
+            <legend>Registered Student List</legend>
+
+            <table border="1" width="100%">
+
+                <tr>
+
+                    <th>First Name</th>
+
+                    <th>Last Name</th>
+
+                    <th>ID</th>
+
+                    <th>Email</th>
+
+                    <th>Credit</th>
+
+                    <th>Department</th>
+
+                </tr>
+
+                <tbody id="studentList">
+
+                </tbody>
+
+            </table>
+
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>
